@@ -1,0 +1,106 @@
+/* Container principal */
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+/* Título principal */
+h1 {
+  color: black;
+  font-size: 32px;
+}
+
+/* Formulário de presença */
+.form-presenca {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+  gap: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-presenca h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.form-presenca p {
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+  margin-bottom: 25px;
+}
+
+.form-presenca label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.form-presenca input,
+.form-presenca select {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #3f3f3f;
+  background: rgb(245, 245, 245);
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.form-presenca input:focus,
+.form-presenca select:focus {
+  border: 1px solid rgba(0, 0, 255, 0.6);
+}
+
+/* Botão de envio */
+.btn {
+  background-color: rgb(0, 0, 255);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 15px 0;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+/* Lista de confirmados */
+.lista-confirmados {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.lista-confirmados p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.lista-confirmados span {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
