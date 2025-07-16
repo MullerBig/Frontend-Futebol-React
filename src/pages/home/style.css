@@ -39,6 +39,14 @@ body {
   line-height: 1.6;
 }
 
+.estilo-futcore {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;  
+  font-weight: bold;
+  font-size: 1rem;  
+}
+
+
 /* MAIN LAYOUT */
 .conteudo {
   display: flex;
@@ -103,4 +111,26 @@ article h1 {
 .lista-confirmados span {
   font-weight: bold;
   color: #2c3e50;
+}
+
+/*Rodape*/
+.rodape {
+  background: linear-gradient(135deg, #ebf8e1, #3f87a6);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 27, 78, 0.623);  
+  flex-direction:column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.lista-rodape li {
+  margin-bottom: 15px;
+   
+}
+
+.rodape li:hover {
+  background: rgba(255, 255, 255, 0.192);
 }

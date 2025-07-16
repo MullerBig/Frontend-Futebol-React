@@ -75,7 +75,7 @@ function Futebol() {
           <input
             name="quadra"
             type="text"
-            placeholder="Digite a quadra do evento:"
+            placeholder="Digite o nome da quadra do evento:"
             ref={inputQuadra}
           />
 
@@ -99,7 +99,7 @@ function Futebol() {
           <input
             name="bairro"
             type="text"
-            placeholder="Digite o bairro:"
+            placeholder="Digite o nome do bairro:"
             ref={inputBairro}
           />
 

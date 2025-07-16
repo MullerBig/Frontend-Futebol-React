@@ -67,7 +67,7 @@ function Confirmar() {
           <input
             name="nome"
             type="text"
-            placeholder="Digite seu Nome"
+            placeholder="Digite seu Nome:"
             ref={inputNome}
           />
 

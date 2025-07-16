@@ -40,7 +40,7 @@ function Grupos() {
           <input
             name="grupos"
             type="text"
-            placeholder="Digite um grupo que você faz parte"
+            placeholder="Crie seu time ou grupo de futebol:"
             ref={inputNome}
           />
 

@@ -25,19 +25,20 @@ function Home() {
     <>
       <header className="introducao">
         <h1>FutCore</h1>
-        <p>Projeto que visa facilitar a criação de eventos futebolistos</p>
+        <p>Projeto que pretende facilitar a criação de eventos esportivos voltados ao Futebol</p>
         <br></br>
 
         <h2>Sobre o Projeto</h2>
         <p>
-          FutCore é um projeto fullstack feito com SQL Server, C# .NetCore8 e
-          React.js
+           <span class="estilo-futcore">FutCore</span> é um projeto fullstack feito com SQL Server, C# .NetCore8 e
+          React.js.
         </p>
         <p>
           Neste website é possível criar grupos de futebol, eventos (jogos de
           futebol), e confirmar a presença dos jogadores que foram convidados.
         </p>
         <br></br>
+
       </header>
 
       <main className="conteudo">
@@ -87,6 +88,19 @@ function Home() {
             ))}
         </article>
       </main>
+      <footer className="rodape">
+            <ul className="lista-rodape"> Informações de Contato:
+              <li>
+                Linkedin: linkedin.com/in/geovane-de-souza-
+              </li>
+              <li>
+                Github: github.com/MullerBig
+              </li>
+              <li>
+                Email: geovane.desouzaferreira07@gmail.com
+              </li>
+            </ul>
+      </footer>
     </>
   );
 }
